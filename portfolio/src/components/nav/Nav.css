@@ -1,0 +1,21 @@
+@import "../../index.css";
+
+.menuIcon {
+  color: black;
+  font-size: xx-large;
+}
+
+.menu {
+  position: fixed;
+  z-index: 2;
+  left: 3em;
+  bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 5em;
+  height: 200px;
+  background-color: var(--cream);
+  align-items: center;
+  border-radius: 10em;
+}

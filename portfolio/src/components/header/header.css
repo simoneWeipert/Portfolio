@@ -1,0 +1,32 @@
+.container {
+  position: fixed;
+  width: 99vw;
+  min-height: fit-content;
+  max-height: max-content;
+  display: flex;
+  flex-direction: row;
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--cream);
+}
+
+#logo {
+  padding: 2em;
+  width: 5em;
+  height: auto;
+  text-decoration: none;
+}
+
+#end {
+  padding: 2em;
+  width: max-content;
+  align-self: center;
+  margin-left: auto;
+}
+
+.icon {
+  width: 3em;
+  height: auto;
+}
